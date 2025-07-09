@@ -1,3 +1,6 @@
+//resets de game als je gewonnen of game over bent
+
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

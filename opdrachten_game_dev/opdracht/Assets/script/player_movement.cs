@@ -1,3 +1,7 @@
+// met deze file kan je je balletje bewegen
+// en het houd ook de score bij
+
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
