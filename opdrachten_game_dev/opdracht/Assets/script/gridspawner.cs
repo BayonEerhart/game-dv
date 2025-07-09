@@ -1,3 +1,6 @@
+// deze code maakt het zo dat als je een coin pakt dat hij een nieuwe op een random plek zet
+
+
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
