@@ -1,3 +1,7 @@
+// dit scriptje maakt het dat je de timer kan gebruiken en dat het af teld 
+// en als je 0 seconde over hebt dan opent het de game over screen
+
+
 using UnityEngine;
 using TMPro;
 
@@ -5,8 +9,8 @@ public class timer : MonoBehaviour
 {
     public float timeLeft = 20f;
     public TextMeshProUGUI timerText;
-    public GameObject gameOverScreen; // ← Sleep hier je panel in via de Inspector
-    public GameObject gameOverText; // ← optioneel extra tekst
+    public GameObject gameOverScreen;
+    public GameObject gameOverText;
 
     private bool isGameOver = false;
 

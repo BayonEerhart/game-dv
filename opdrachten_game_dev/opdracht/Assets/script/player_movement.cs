@@ -4,13 +4,13 @@ using UnityEngine.InputSystem;
 using TMPro;
 public class SimplePlayerMovement : MonoBehaviour
 {
-    public GameObject gameOverScreen; // ← Sleep hier je panel in via de Inspector
-    public GameObject gameWinText; // ← optioneel extra tekst
+    public GameObject gameOverScreen;
+    public GameObject gameWinText;
     public float moveSpeed = 5f;
     public float jumpForce = 2f;
     public timer timer;
     public gridspawner spawner;
-    public TextMeshProUGUI scoreText; // ← Sleep hier je UI Text in via de Inspector
+    public TextMeshProUGUI scoreText;
     private int score = 0;
 
     private Rigidbody2D rb;
